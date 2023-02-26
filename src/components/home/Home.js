@@ -7,9 +7,9 @@ function Home() {
   return (
     <>
       <div>
-        <div className="flex w-full px-3 py-2 home-page">
-          <div className=" flex gap-4 px-5 home-page-col ">
-            <div className=" w-9/12">
+        <div className="flex w-full px-1 py-2 home-page ">
+          <div className=" flex gap-4  home-page-col ">
+            <div className=" w-9/12 w-full">
               <div>
                 <img src={image} alt="desktop" className=" w-full" />
                 <div className=" flex justify-between mt-3 items-center paragraph">

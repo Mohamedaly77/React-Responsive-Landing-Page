@@ -8,7 +8,7 @@ function NavBar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <>
-      <div className=" flex w-full justify-between lg:m-0 lg:p-0 md:p-0 md:m-0 sm:p-0 sm:m-0 ">
+      <div className=" flex  justify-between ">
         <div className=" py-3 px-3  mt-3 mb-6">
           <img src={logo} alt="logo" />
         </div>
